@@ -9,7 +9,7 @@ services:
     image: postgres:alpine
     restart: unless-stopped
     environment:
-      - POSTGRES_PASSWORD=moodle
+      - POSTGRES_PASSWORD=ljitdpdf@2024
       - POSTGRES_USER=moodle
       - POSTGRES_DB=moodle
     volumes:
@@ -32,22 +32,22 @@ services:
     environment:
       LANG: en_US.UTF-8
       LANGUAGE: en_US:en
-      SITE_URL: http://localhost
+      SITE_URL: http://moodle.ljit.com.br
       DB_TYPE: pgsql
       DB_HOST: postgres
       DB_PORT: 5432
       DB_NAME: moodle
       DB_USER: moodle
-      DB_PASS: moodle
+      DB_PASS: ljitdpdf@2024
       DB_PREFIX: mdl_
       REDIS_HOST: redis
       REVERSEPROXY: false
       SSLPROXY: false
       MOODLE_EMAIL: user@example.com
       MOODLE_LANGUAGE: en
-      MOODLE_SITENAME: New-Site
+      MOODLE_SITENAME: EASJUR - TESTE
       MOODLE_USERNAME: moodleuser
-      MOODLE_PASSWORD: PLEASE_CHANGEME
+      MOODLE_PASSWORD: dpdf@2024
       SMTP_HOST: smtp.gmail.com
       SMTP_PORT: 587
       SMTP_USER: your_email@gmail.com

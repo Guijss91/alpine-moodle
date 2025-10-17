@@ -32,7 +32,7 @@ services:
     environment:
       LANG: en_US.UTF-8
       LANGUAGE: en_US:en
-      SITE_URL: http://moodle.ljit.com.br
+      SITE_URL: https://moodle.ljit.com.br
       DB_TYPE: pgsql
       DB_HOST: postgres
       DB_PORT: 5432

@@ -62,6 +62,9 @@ services:
     volumes:
       - moodledata:/var/www/moodledata
       - moodlehtml:/var/www/html
+    depends_on:
+      - postgres
+      - redis
 
 volumes:
   postgres: null

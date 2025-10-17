@@ -41,8 +41,6 @@ services:
       DB_PASS: ljitdpdf@2024
       DB_PREFIX: mdl_
       REDIS_HOST: redis
-      REVERSEPROXY: false
-      SSLPROXY: false
       MOODLE_EMAIL: user@example.com
       MOODLE_LANGUAGE: en
       MOODLE_SITENAME: EASJUR - TESTE

@@ -65,8 +65,11 @@ services:
     depends_on:
       - postgres
       - redis
-
 volumes:
-  postgres: null
-  moodledata: null
-  moodlehtml: null
+  moodledata:
+    external: true
+    name: laboratorio_moodle_moodledata
+  moodlehtml:
+    external: true
+    name: laboratorio_moodle_moodlehtml
+
